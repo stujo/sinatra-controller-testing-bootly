@@ -1,0 +1,8 @@
+<ul>
+<% @urls.each do |url| %>
+  <li><a href="<%= url.full_url %>"><%= url.id %><%= url.full_url %></a></li>
+<% end %>
+</ul>
+
+<a id="link_home" href="/">home</a>
+
